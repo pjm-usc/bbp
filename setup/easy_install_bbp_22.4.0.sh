@@ -221,6 +221,7 @@ if [ $make_ret_val -ne 0 ]; then
     echo
     echo "****** ERROR: BBP build failed, for more details please check:"
     echo "****** ERROR: ${SRCDIR}/bbp-build.log"
+    cat ${SRCDIR}/bbp-build.log
     echo
     cd ${OLD_DIR}
     exit 1
