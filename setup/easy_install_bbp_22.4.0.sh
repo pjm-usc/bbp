@@ -303,8 +303,8 @@ echo
 
 if [ "${LABASIN}" == "y" ]; then
     cd ${BASEDIR}/bbp_gf
-    echo "==> LA Basin"
-    download_untar ${BASEURL}/labasin500-velocity-model-${VERSION}.tar.gz ${MD5FILE}
+    echo "==> LA Basin - Locally available without download"
+#    download_untar ${BASEURL}/labasin500-velocity-model-${VERSION}.tar.gz ${MD5FILE}
 fi
 
 if [ "${NOCAL}" == "y" ]; then
