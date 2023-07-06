@@ -361,11 +361,11 @@ fi
 if [ "${LABASIN}" == "y" ]; then
     cd ${BASEDIR}/bbp_val
     echo "==> NR"
-    download_untar ${BASEURL}/nr-validation-${VERSION}.tar.gz ${MD5FILE}
+    # download_untar ${BASEURL}/nr-validation-${VERSION}.tar.gz ${MD5FILE}
     echo "==> Whittier Narrows"
-    download_untar ${BASEURL}/whittier-validation-${VERSION}.tar.gz ${MD5FILE}
+    # download_untar ${BASEURL}/whittier-validation-${VERSION}.tar.gz ${MD5FILE}
     echo "==> Chino Hills"
-    download_untar ${BASEURL}/chino-hills-validation-${VERSION}.tar.gz ${MD5FILE}
+    # download_untar ${BASEURL}/chino-hills-validation-${VERSION}.tar.gz ${MD5FILE}
 fi
 
 if [ "${CCAL}" == "y" ]; then
