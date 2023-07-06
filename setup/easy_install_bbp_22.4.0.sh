@@ -108,7 +108,7 @@ FFTW_BUILD_DIR="${BASEDIR}/fftbuild"
 FFTW_INSTALL_DIR="${BASEDIR}/fftw-3.3.8"
 
 echo
-echo " ====== Welcome to Broadband Platform ${VERSION} installation script ======"
+echo " ====== Welcome to Broadband Platform ${VERSION} installation script PJM Version ======"
 echo
 echo " Using destination directory: ${BASEDIR}"
 echo
@@ -233,7 +233,7 @@ echo "==> Build completed!"
 
 # Install velocity model packages
 echo
-echo " ====== Setting up Broadband Platform ${VERSION} Simulation Regions  ======"
+echo " ====== Setting up Broadband Platform ${VERSION} Simulation Regions  PJM ======"
 echo
 echo " Please select what velocity models (regions) you would like to install,"
 echo " using '1' for Yes, or '2' for No:"
